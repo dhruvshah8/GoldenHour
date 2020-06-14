@@ -16,6 +16,8 @@ struct SunView: View {
     let percent = [30, 74]
     var index = [0,1]
     
+    
+    
     var body: some View {
         VStack{
             HStack {
@@ -23,27 +25,22 @@ struct SunView: View {
                 Spacer()
             }
             
-                ScrollView(.horizontal){
-                    
-                    HStack{
-                        Spacer()
-                        SunCardView(label: "Sunrise", time: "5:00AM", quality: "Poor", percent: 30)
-                        
-                        SunCardView(label: "Sunset", time: "9:00PM", quality: "Good", percent: 74)
-                        Spacer()
-                    }
-                }
+            ScrollView(.horizontal){
                 
+                HStack{
+                    Spacer()
+                    SunCardView(label: "Sunrise", time: "5:00AM", quality: "Poor", percent: 30)
+                    
+                    SunCardView(label: "Sunset", time: "9:00PM", quality: "Good", percent: 74)
+                    Spacer()
+                }
             }
         }
-
-    
+    }
 }
-
 
 struct SunView_Previews: PreviewProvider {
     static var previews: some View {
         SunView()
     }
 }
-

@@ -27,10 +27,10 @@ struct TimesCardView: View {
             }.padding(.trailing, 15)
             Spacer()
         }
-      
+            
         .frame(height: 30)
         .foregroundColor(Color.black)
-            .background(Color.white)
+        .background(Color.white)
         .cornerRadius(13)
         .padding(.horizontal)
         

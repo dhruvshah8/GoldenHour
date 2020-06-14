@@ -67,20 +67,18 @@ struct SunCardView: View {
                     
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("Share").foregroundColor(Color.black).font(.system(size: 12, weight: .light , design: .default))
-                        }.frame(width: 60, height: 30).background(Color.white).cornerRadius(10)
+                    }.frame(width: 60, height: 30).background(Color.white).cornerRadius(10)
                 }.frame(width: 170, height: 170).padding(.bottom, 30).cornerRadius(20).background(Color(red: 1, green: 0.359375, blue: 0.359375))
             }
             Spacer()
         }
         .frame(width: 300, height: 170)
-       // .border(Color.gray, width: 10)
-        .background(Color.white)
-        .cornerRadius(20)
+            // .border(Color.gray, width: 10)
+            .background(Color.white)
+            .cornerRadius(20)
         
     }
 }
-
-
 
 struct SunCardView_Previews: PreviewProvider {
     static var previews: some View {

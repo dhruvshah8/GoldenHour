@@ -28,10 +28,10 @@ struct MainView: View {
     
     var body: some View {
         
-      
-            VStack{
-                CityView().edgesIgnoringSafeArea(.top).frame(height: 90)
-             
+        ZStack{
+        VStack{
+            CityView().edgesIgnoringSafeArea(.top).frame(height: 90)
+            
             ZStack {
                 ScrollView{
                     
@@ -41,8 +41,10 @@ struct MainView: View {
                     
                 }.padding()
                 
-            }.background(Color(red: 0.9453125, green: 0.96484375, blue: 0.96484375)).edgesIgnoringSafeArea(.top).frame(alignment: .top)
+                }.background(Color(red: 0.9453125, green: 0.96484375, blue: 0.96484375)).cornerRadius(40)
+                .edgesIgnoringSafeArea(.bottom).frame(alignment: .top)
         }
+        }.background((Color(red: 1, green: 0.359375, blue: 0.359375)))
     }
 }
 

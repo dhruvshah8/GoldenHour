@@ -99,6 +99,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E274C3B2495455100A4CB67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E841F1F24944167007F8C45 /* CityView.swift */,
+				1E503355248E957E00769118 /* ContentView.swift */,
+				1E503367248E960E00769118 /* MainView.swift */,
+				1E7495BE2492C24700BD57CF /* SunView.swift */,
+				1E5033A9248EB73200769118 /* TimesCardView.swift */,
+				1E5033A7248EB44400769118 /* Times.swift */,
+				1E7495C02492C28200BD57CF /* SunCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E274C3C2495455800A4CB67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E5033A5248EA93800769118 /* NetworkManager.swift */,
+				1E5033A3248E9ADF00769118 /* LocationManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1E503345248E957D00769118 = {
 			isa = PBXGroup;
 			children = (
@@ -122,15 +145,8 @@
 			children = (
 				1E503351248E957E00769118 /* AppDelegate.swift */,
 				1E503353248E957E00769118 /* SceneDelegate.swift */,
-				1E841F1F24944167007F8C45 /* CityView.swift */,
-				1E503355248E957E00769118 /* ContentView.swift */,
-				1E503367248E960E00769118 /* MainView.swift */,
-				1E7495BE2492C24700BD57CF /* SunView.swift */,
-				1E7495C02492C28200BD57CF /* SunCardView.swift */,
-				1E5033A5248EA93800769118 /* NetworkManager.swift */,
-				1E5033A3248E9ADF00769118 /* LocationManager.swift */,
-				1E5033A9248EB73200769118 /* TimesCardView.swift */,
-				1E5033A7248EB44400769118 /* Times.swift */,
+				1E274C3B2495455100A4CB67 /* Views */,
+				1E274C3C2495455800A4CB67 /* Controller */,
 				1E503357248E958100769118 /* Assets.xcassets */,
 				1E50335C248E958100769118 /* LaunchScreen.storyboard */,
 				1E50335F248E958100769118 /* Info.plist */,
