@@ -20,8 +20,7 @@ struct ContentView: View {
                     }
             }
             .tag(0)
-            Text("Second View")
-                .font(.title)
+            SettingsView()
                 .tabItem {
                     VStack {
                           Image(systemName: "bell.fill").font(.system(size: 26)) //or use gear - settings 

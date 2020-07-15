@@ -10,7 +10,7 @@
 
 import SwiftUI
 
-struct Settings: View {
+struct SettingsView: View {
 
    @State var receive = false
    @State var number = 1
@@ -56,7 +56,7 @@ struct Settings: View {
 #if DEBUG
 struct Settings_Previews: PreviewProvider {
    static var previews: some View {
-      Settings()
+      SettingsView()
    }
 }
 #endif
