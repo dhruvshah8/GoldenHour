@@ -10,8 +10,8 @@ class NetworkManager: ObservableObject{
         let formatter:DateFormatter = DateFormatter()
         formatter.dateFormat = "HH:mm"
         formatter.timeZone = TimeZone(abbreviation: "EST")
-        let sunriseString:String = formatter.string(from: sunCalc.sunriseEnd)
-        let sunsetString:String = formatter.string(from: sunCalc.sunset)
+        let sunriseString : String = formatter.string(from: sunCalc.sunriseEnd)
+        let sunsetString : String = formatter.string(from: sunCalc.sunset)
         let dawn:String = formatter.string(from: sunCalc.dawn)
         let dusk:String = formatter.string(from: sunCalc.dusk)
         let nautDawn:String = formatter.string(from: sunCalc.nauticalDawn)

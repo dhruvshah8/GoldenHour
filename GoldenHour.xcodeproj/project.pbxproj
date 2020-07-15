@@ -44,6 +44,7 @@
 		1E7495BF2492C24700BD57CF /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7495BE2492C24700BD57CF /* SunView.swift */; };
 		1E7495C12492C28200BD57CF /* SunCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7495C02492C28200BD57CF /* SunCardView.swift */; };
 		1E841F2024944167007F8C45 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E841F1F24944167007F8C45 /* CityView.swift */; };
+		1ED0634024BEAA5200455995 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0633F24BEAA5200455995 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		1E7495BE2492C24700BD57CF /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
 		1E7495C02492C28200BD57CF /* SunCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCardView.swift; sourceTree = "<group>"; };
 		1E841F1F24944167007F8C45 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		1ED0633F24BEAA5200455995 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				1E841F1F24944167007F8C45 /* CityView.swift */,
 				1E503355248E957E00769118 /* ContentView.swift */,
+				1ED0633F24BEAA5200455995 /* SettingsView.swift */,
 				1E503367248E960E00769118 /* MainView.swift */,
 				1E7495BE2492C24700BD57CF /* SunView.swift */,
 				1E5033A9248EB73200769118 /* TimesCardView.swift */,
@@ -303,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED0634024BEAA5200455995 /* SettingsView.swift in Sources */,
 				1E5033A6248EA93800769118 /* NetworkManager.swift in Sources */,
 				1E7495BC2492B32A00BD57CF /* CardGroup.swift in Sources */,
 				1E50339B248E98B300769118 /* SunUtils.swift in Sources */,
