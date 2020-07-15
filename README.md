@@ -6,3 +6,5 @@
 2. Open in XCode 
 3. Build and Run 
 
+
+![](https://raw.githubusercontent.com/dhruvshah8/GoldenHour/master/GoldenHourScreenShot.jpg)
