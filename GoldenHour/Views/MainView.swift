@@ -26,6 +26,7 @@ struct MainView: View {
         return (networkManager.fetch(lat: (userLatitude), long: (userLongitude)))
     }
     
+ 
     var body: some View {
         
         ZStack{

@@ -22,4 +22,8 @@ class NetworkManager: ObservableObject{
         
     }
     
+    
+    
+ 
+    
 }
